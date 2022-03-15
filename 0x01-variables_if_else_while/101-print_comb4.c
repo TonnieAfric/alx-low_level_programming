@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - Prints all possible combinations of three different digits,
  * in ascending order, seperated by a comma followed by a space.
@@ -25,3 +24,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+    }
+    putchar('\n');
+    return(0);
+}
